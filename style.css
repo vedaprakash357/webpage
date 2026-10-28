@@ -1,0 +1,93 @@
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 40px 16px;
+}
+
+/* Main application container */
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #00000015;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #2563eb;
+}
+
+/* Input and Add button */
+.input-area {
+    display: flex;
+    gap: 8px;
+}
+
+input[type="text"] {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* Task list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+li span {
+    flex: 1;
+    overflow-wrap: anywhere;
+}
+
+/* Completed task */
+li.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Delete button */
+.delete-btn {
+    background: #dc2626;
+}
+
+.delete-btn:hover {
+    background: #b91c1c;
+}
+
+/* Task message */
+#message {
+    color: #666;
+    text-align: center;
+}
